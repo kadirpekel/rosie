@@ -19,6 +19,17 @@ FOO-35 deleted
 FOO-38 skipped
 FOO-43 deleted
 ```
+Disclaimer
+----------
+
+Please use at your own risk.
+
+To Do
+-----
+
+ 1 Add --dry-run option
+ 2 Add environment variables support for prompted entries
+
 
 ```
                           .nMMn.             .,.
