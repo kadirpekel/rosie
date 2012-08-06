@@ -14,9 +14,9 @@ do
   if [ $? == 0 ]
   then
     # delete branch on remote
-    # git push origin ":$branch"
+    git push origin ":$branch"
     # delete branch on local
-    # git branch -D "$branch"
+    git branch -D "$branch"
     echo "deleted $branch"
   else
     echo "skipped $branch";
