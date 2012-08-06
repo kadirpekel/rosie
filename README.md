@@ -3,34 +3,6 @@ Rosie
 
 Clean up your stale git branches due to JIRA
 
-Example Usage
--------------
-
-``` bash
-$ curl https://raw.github.com/kadirpekel/rosie/master/rosie.sh > /usr/local/bin/rosie.sh
-$ chmod +x /usr/local/bin/rosie.sh
-$ cd $MY_GIT_REPO
-$ rosie.sh
-Enter Jira Host (No trailing slash): https://my.jira.com
-Enter Jira Username: foo
-Enter Jira Password: 
-FOO-34 deleted
-FOO-35 deleted
-FOO-38 skipped
-FOO-43 deleted
-```
-Disclaimer
-----------
-
-Please use at your own risk.
-
-To Do
------
-
- 1 Add --dry-run option
- 2 Add environment variables support for prompted entries
-
-
 ```
                           .nMMn.             .,.
                .,.       ,MMMMMMn          nMMMMM
@@ -84,3 +56,40 @@ F,J$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ !, $$$$$$$$$$$$$
  J$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ !! $$$$$$$$$$$$$
  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ !!>`$$$$$$$$$$$$
 ```
+
+Example Usage
+-------------
+
+``` bash
+$ curl https://raw.github.com/kadirpekel/rosie/master/rosie.sh > /usr/local/bin/rosie.sh
+$ chmod +x /usr/local/bin/rosie.sh
+$ cd $MY_GIT_REPO
+$ rosie.sh
+Enter Jira Host (No trailing slash): https://my.jira.com
+Enter Jira Username: foo
+Enter Jira Password: 
+FOO-34 deleted
+FOO-35 deleted
+FOO-38 skipped
+FOO-43 deleted
+```
+Disclaimer
+----------
+
+Please use at your own risk.
+
+To Do
+-----
+
+ * Add --dry-run option
+ * Add environment variables support for prompted entries
+
+Licence
+-------
+Copyright (c) 2012 Kadir Pekel.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
